@@ -51,6 +51,10 @@ async function handleLogout() {
           <el-icon><Menu /></el-icon>
           <span>分类管理</span>
         </el-menu-item>
+        <el-menu-item index="/video">
+          <el-icon><VideoCamera /></el-icon>
+          <span>视频管理</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
 

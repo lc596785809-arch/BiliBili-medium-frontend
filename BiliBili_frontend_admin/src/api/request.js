@@ -3,8 +3,10 @@ import { ElMessage } from 'element-plus'
 import router from '@/router'
 import { useAdminStore } from '@/stores/admin'
 
+export const ADMIN_BASE_URL = 'http://localhost:7072/admin'
+
 const request = axios.create({
-  baseURL: 'http://localhost:7072/admin',
+  baseURL: ADMIN_BASE_URL,
   withCredentials: true,
 })
 
